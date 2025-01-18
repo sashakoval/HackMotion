@@ -1,0 +1,36 @@
+<div class="hero-section">
+  <div class="pack-container">
+
+    <p class="quiz-result">
+      We have put together a swing improvement solution to help you
+      <span class="quiz-result-dynamic-text">{{ dynamicContent }}</span>
+    </p>
+    
+    <p class="pack-list-title">Pack includes:</p>
+    <ul class="pack-list">
+      <li class="list-item">Swing Analyzer - HackMotion Core</li>
+      <li class="list-item">Drills by coach Tyler Ferrell</li>
+      <li class="list-item">Game improvement plan by HackMotion</li>
+    </ul>
+
+    <button class="btn" aria-label="Start the solution">
+      <span class="btn-label">Start Now</span>
+      <span class="btn-icon">
+        <img src="assets/icons/arrow_forward.svg" alt="arrow forward icon" class="arrow-icon">
+      </span>
+    </button>
+  </div>
+
+  <div class="hero-graphs">
+    <img [src]="improvementGraphUrl" alt="Improvement Graph" class="graph-img">
+    <img [src]="improvementProgressbarRateUrl" alt="Improvement Rate" class="progressbar-rate-img">
+  </div>
+
+  <div class="hero-graphs-mobile">
+    <img [src]="improvementGraphMobileUrl" alt="Improvement Graph" class="graph-img-mobile">
+    <div class="additional-graphs">
+      <img [src]="improvementProgressbarUrl" alt="Improvement Progressbar" class="progressbar-img">
+      <img [src]="improvementRateUrl" alt="Improvement Rate" class="rate-img">
+    </div>
+  </div>
+</div>

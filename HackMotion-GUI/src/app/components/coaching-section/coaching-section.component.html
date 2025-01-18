@@ -1,0 +1,40 @@
+<div class="video-section">
+  <div class="header">The best solution for you: Impact Training Program</div>
+
+  <div class="main-content">
+    <div class="video-wrapper">
+      <video #videoPlayer (timeupdate)="onTimeUpdate()" controls>
+        <source src="assets/videos/impact-drill.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+
+    <div class="progress-bar-container">
+        <input class="progress-bar" type="range" value="0" max="100" step="1" orient="vertical" [value]="progress"
+        (input)="updateProgress($event)"
+        [style.--progress.%]="progress"/>
+    </div>
+
+    <div class="progress-bar-container-mobile">
+      <input class="progress-bar" type="range" value="0" max="100" step="1" [value]="progress"
+      (input)="updateProgress($event)"
+      [style.--progress.%]="progress"/>
+    </div>
+
+    <div class="timestamps">
+      <div class="timestamp" *ngFor="let timestamp of timestamps; let i = index">
+        <span class="timestamp-header">
+          <img *ngIf="!isTimestampDescriptionVisible(i)" src="assets/icons/expand_more.svg" alt="expand more icon">
+          <img *ngIf="isTimestampDescriptionVisible(i)" src="assets/icons/expand_less.svg" alt="expand less icon">
+          <a (click)="jumpToTimestamp(timestamp)" class="timestamp-title">
+            {{ timestamp.label }}
+          </a>
+        <div *ngIf="isTimestampDescriptionVisible(i)" class="timestamp-content">
+          <p class="timestamp-description">{{ timestamp.content }}</p>
+        </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

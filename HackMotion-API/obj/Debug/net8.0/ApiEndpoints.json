@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "HackMotionApi.Controllers.AnalyticsController",
+    "Method": "LogEvent",
+    "RelativePath": "api/Analytics/log",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "analyticsEvent",
+        "Type": "HackMotionApi.Models.AnalyticsEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

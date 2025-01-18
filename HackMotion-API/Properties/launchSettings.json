@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "HackMotionApi": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:7200"
+    }
+  }
+}

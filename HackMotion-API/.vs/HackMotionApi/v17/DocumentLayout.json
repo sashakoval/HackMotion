@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|c:\\users\\sasha\\desktop\\hackmotion resourses\\hackmotion-api\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|solutionrelative:services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|c:\\users\\sasha\\desktop\\hackmotion resourses\\hackmotion-api\\models\\deviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|solutionrelative:models\\deviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|c:\\users\\sasha\\desktop\\hackmotion resourses\\hackmotion-api\\contracts\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|solutionrelative:contracts\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|c:\\users\\sasha\\desktop\\hackmotion resourses\\hackmotion-api\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|c:\\users\\sasha\\desktop\\hackmotion resourses\\hackmotion-api\\models\\analyticsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED428F-81E5-458A-854A-34E23DD6AF6A}|HackMotionApi.csproj|solutionrelative:models\\analyticsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Models\\DeviceInfo.cs",
+              "RelativeDocumentMoniker": "Models\\DeviceInfo.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Models\\DeviceInfo.cs",
+              "RelativeToolTip": "Models\\DeviceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:12:27.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Contracts\\IAnalyticsService.cs",
+              "RelativeDocumentMoniker": "Contracts\\IAnalyticsService.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Contracts\\IAnalyticsService.cs",
+              "RelativeToolTip": "Contracts\\IAnalyticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:12:24.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:12:21.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnalyticsEvent.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Models\\AnalyticsEvent.cs",
+              "RelativeDocumentMoniker": "Models\\AnalyticsEvent.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Models\\AnalyticsEvent.cs",
+              "RelativeToolTip": "Models\\AnalyticsEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:12:21.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Services\\AnalyticsService.cs",
+              "RelativeDocumentMoniker": "Services\\AnalyticsService.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\HackMotion Resourses\\HackMotion-API\\Services\\AnalyticsService.cs",
+              "RelativeToolTip": "Services\\AnalyticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:12:14.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
