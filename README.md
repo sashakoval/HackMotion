@@ -14,7 +14,7 @@ This project is a web application that uses **.NET 8** for the backend and **Ang
    - [Step 1: Clone the repository](#step-1-clone-the-repository)
    - [Step 2: Install Docker and Docker Compose](#step-2-install-docker-and-docker-compose)
    - [Step 3: Build and run containers](#step-3-build-and-run-containers)
-4. [Retrieving Log Files from the Container](#step-4-retrieving-log-files-from-the-container)
+4. [Retrieving Log Files from the Container](#retrieving-log-files-from-the-container)
 5. [Additional Information](#additional-information)
    - [Viewing logs](#viewing-logs)
    - [Restarting Containers](#restarting-container)
