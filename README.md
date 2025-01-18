@@ -1,5 +1,4 @@
-# HackMotion Test App
-# Project Documentation:
+# HackMotion Test App Project Documentation:
 
 ## Description
 
