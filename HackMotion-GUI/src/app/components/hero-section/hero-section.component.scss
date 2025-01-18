@@ -1,0 +1,224 @@
+@import 'src/assets/scss/variables';
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 59.2px 188.66px 159px 97px;
+  gap: 32px;
+
+  .btn {
+    width: 154px;
+    height: 56px;
+    margin-top: 48px;
+    border: none;
+    border-radius: 72px;
+    background: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    .btn-label {
+      font-size: $font-size-small;
+      font-weight: $font-weight-medium;
+      line-height: 24px;
+      text-align: center;
+      color: $white;
+    }
+
+    .btn-icon {
+      margin-top: 4px;
+    }
+  }
+
+  .pack-container {
+    .quiz-result {
+      margin-top: 0;
+      font-size: $font-size-large;
+      font-weight: $font-weight-medium;
+      line-height: 41.6px;
+      color: $secondary-color;
+
+      .quiz-result-dynamic-text {
+        font-size: $font-size-large;
+        font-weight: $font-weight-medium;
+        line-height: 41.6px;
+        color: $primary-color;
+      }
+    }
+
+    .pack-list-title {
+      margin-top: 48px;
+      margin-bottom: 24px;
+      font-size: $font-size-medium;
+      font-weight: $font-weight-light
+;
+      line-height: 36px;
+    }
+
+    .pack-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-left: 4px solid $primary-color;
+      padding-left: 16px;
+      list-style-type: none;
+
+      .list-item {
+        font-size: $font-size-medium;
+        font-weight: $font-weight-medium
+;
+        line-height: 31.2px;
+        text-align: left;
+        text-decoration-skip-ink: none;
+      }
+    }
+  }
+
+  .hero-graphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    .graph-img {
+      width: 565.5px;
+      height: 439px;
+    }
+
+    .progressbar-rate-img {
+      width: 565.5px;
+      height: 274.5px;
+    }
+  }
+
+  .hero-graphs-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero-section {
+    padding: 32px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+
+    .pack-container {
+      .quiz-result {
+        margin-top: 0;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-medium
+;
+        line-height: 31.2px;
+        color: $secondary-color;
+  
+        .quiz-result-dynamic-text {
+          font-size: $font-size-medium;
+          font-weight: $font-weight-medium
+;
+          line-height: 31.2px;
+          color: $primary-color;
+        }
+      }
+  
+      .pack-list-title {
+        margin-top: 32px;
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight: $font-weight-light
+;
+        line-height: 30px;
+      }
+  
+      .pack-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        border-left: 4px solid $primary-color;
+        padding-left: 16px;
+        list-style-type: none;
+  
+        .list-item {
+          font-size: 20px;
+          font-weight: $font-weight-medium
+;
+          line-height: 26px;
+        }
+      }
+    }
+
+    .btn {
+      width: 124px;
+      height: 38px;
+      margin-top: 32px;
+      margin-bottom: 45px;
+      border: none;
+      border-radius: 72px;
+      background: $primary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      .btn-label {
+        font-size: 14px;
+        font-weight: $font-weight-medium
+;
+        line-height: 18px;
+        text-align: center;
+        color: $white;
+      }
+  
+      .btn-icon {
+        margin-top: 4px;
+      }
+
+      .arrow-icon {
+        width: 11.68px;
+        height: 11.37px;
+      }
+    }
+
+    .hero-graphs-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+
+      .graph-img-mobile {
+        display: block;
+        width: 328px;
+        height: 323px;
+        object-fit: contain;
+        border-radius: 8px;
+      }
+  
+      .additional-graphs {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .progressbar-img {
+          display: block;
+          width: 328px;
+          height: 258px;
+          border-radius: 8px;
+          object-fit: contain;
+        }
+    
+        .rate-img {
+          display: block;
+          width: 328px;
+          height: 262.5px;
+          border-radius: 8px;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .hero-graphs {
+      display: none;
+    }
+  }
+}

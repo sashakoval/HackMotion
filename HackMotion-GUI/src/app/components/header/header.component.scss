@@ -1,0 +1,10 @@
+.logo-section {
+    padding-top: 44px;
+    padding-left: 44px;
+}
+
+@media (max-width: 360px) {
+    .logo-section {
+        display: none;
+    }
+}
