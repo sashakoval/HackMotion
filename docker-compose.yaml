@@ -3,8 +3,8 @@ version: '3.8'
 services:
   frontend:
     build:
-      context: ./HackMotion-GUI   # Путь к папке с вашим Angular проектом
-      dockerfile: Dockerfile  # Указываем Dockerfile для фронтенда
+      context: ./HackMotion-GUI
+      dockerfile: Dockerfile 
     ports:
       - "80:80"
     networks:
@@ -14,8 +14,8 @@ services:
 
   backend:
     build:
-      context: ./HackMotion-API  # Путь к папке с вашим ASP.NET Core API
-      dockerfile: Dockerfile  # Указываем Dockerfile для бэкенда
+      context: ./HackMotion-API
+      dockerfile: Dockerfile
     environment:
       - ASPNETCORE_HTTP_PORTS=7200
     ports:
