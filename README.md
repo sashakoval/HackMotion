@@ -104,15 +104,15 @@ This will start the containers in the background and return the terminal to you.
 
 Once the containers are up and running, the application will be accessible at the following URLs:
 - **Backend (.NET 8 API)**: [http://localhost:7200](http://localhost:7200)
-- **Frontend (Angular)**: [http://localhost](http://localhost)
+- **Frontend (Angular)**: [http://localhost:8080](http://localhost:8080)
 
 Additionally, you can pass query strings to the frontend to display the results of a user's quiz. The query string defines the specific result category the user belongs to. For example:
 
-- **Default**: `http://localhost` – This will show the default view.
-- **Quiz result for break80**: `http://localhost/?quizResult=break80`
-- **Quiz result for break90**: `http://localhost/?quizResult=break90`
-- **Quiz result for break100**: `http://localhost/?quizResult=break100`
-- **Quiz result for breakpar**: `http://localhost/?quizResult=breakpar`
+- **Default**: `http://localhost:8080` – This will show the default view.
+- **Quiz result for break80**: `http://localhost:8080/?quizResult=break80`
+- **Quiz result for break90**: `http://localhost:8080/?quizResult=break90`
+- **Quiz result for break100**: `http://localhost:8080/?quizResult=break100`
+- **Quiz result for breakpar**: `http://localhost:8080/?quizResult=breakpar`
 
 By default, the frontend will display the result for `break80` if no query string is provided.
 
