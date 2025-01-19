@@ -3,6 +3,14 @@
     padding-left: 44px;
 }
 
+@media (max-width: 480px) {
+    .logo-section {
+      padding-left: 24px;
+      padding-top: 24px;
+    }
+}
+
+
 @media (max-width: 360px) {
     .logo-section {
         display: none;

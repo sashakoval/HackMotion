@@ -8,13 +8,18 @@
     height: 64px;
     background-color: $secondary-color;
     margin-top: 88px;
-    
+
     .footer-content {
         font-size: 12px;
-        font-weight: $font-weight-light
-;
+        font-weight: $font-weight-light;
         line-height: 16px;
         color: $white;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        margin-top: 16px;
     }
 }
 
