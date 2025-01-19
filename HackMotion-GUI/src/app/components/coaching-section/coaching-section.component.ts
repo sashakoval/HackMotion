@@ -45,6 +45,7 @@ export class CoachingSectionComponent implements AfterViewInit, OnDestroy {
   public jumpToTimestamp(timestamp: { time: number; label: string }) {
     if (this.videoElement) {
       this.videoElement.currentTime = timestamp.time;
+      this.videoElement.play();
     }
   }
 
