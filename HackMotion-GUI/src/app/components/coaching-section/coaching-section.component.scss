@@ -276,7 +276,8 @@
           writing-mode: horizontal-tb;
           direction: ltr;
           appearance: none;
-          width: 628px;
+          width: 100%;
+          max-width: 628px;
           height: 16px;
           -webkit-appearance: none;
           border-radius: 9999px;

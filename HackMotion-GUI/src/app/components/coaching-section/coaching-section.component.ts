@@ -27,6 +27,9 @@ export class CoachingSectionComponent implements AfterViewInit, OnDestroy {
     if (this.videoPlayer) {
       this.videoElement = this.videoPlayer.nativeElement;
 
+      this.videoElement.muted = true;
+      this.videoElement.autoplay = true;
+
       this.videoTimeUpdateListener = () => this.onTimeUpdate();
       this.videoEndedListener = () => this.videoEnded.emit();
 
@@ -57,6 +60,8 @@ export class CoachingSectionComponent implements AfterViewInit, OnDestroy {
     const newTime = (this.progress / 100) * duration;
     
     this.videoPlayer.nativeElement.currentTime = newTime;
+
+    this.videoElement.play();
   }
 
   public onTimeUpdate() {
